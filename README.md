@@ -1,3 +1,6 @@
+
+[![CircleCI](https://circleci.com/gh/ramazan/Spring-Rest-Template-Example.svg?style=svg)](https://circleci.com/gh/ramazan/Spring-Rest-Template-Example)
+
 # Spring Boot Rest Template Example Project
 
 Used technologies 
@@ -6,8 +9,9 @@ Used technologies
   <li>Spring Boot DevTools 
   <li>Project Lombok
   <li>Thymeleaf 
-  <li>WebJars - Web Libraries in Jars (www.webjars.org) 
-
+  <li>WebJars -  (<a href="http://www.webjars.org"> Web Libraries in Jars </a>) 
+  <li>CircleCI - (<a href="http://www.circleci.com/"> Continuous Integration </a>) 
+ 
 
 ### I used Fake API service for this example project.
 

@@ -34,7 +34,7 @@ Used technologies
 
 
 [![CircleCI](https://circleci.com/gh/ramazan/Spring-Rest-Template-Example.svg?style=svg)](https://circleci.com/gh/ramazan/Spring-Rest-Template-Example)
-## When I push this repo , Circle CI run these all test and they show above badge
+## When I push this repo , Circle CI run these all test and they show above badge
 
 
  

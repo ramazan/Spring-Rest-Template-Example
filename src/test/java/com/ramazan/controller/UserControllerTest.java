@@ -1,10 +1,10 @@
 package com.ramazan.controller;
 
-import com.ramazan.api.domain.Constants;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.ApplicationContext;
 import org.springframework.http.MediaType;
@@ -22,6 +22,9 @@ public class UserControllerTest
 
     @Autowired
     ApplicationContext applicationContext;
+
+    @Value("${user.limit}")
+    private Integer USER_LIMIT;
 
     WebTestClient webTestClient;
 
@@ -45,7 +48,7 @@ public class UserControllerTest
     {
 
         MultiValueMap<String, String> formData = new LinkedMultiValueMap<>();
-        formData.add("limit", String.valueOf(Constants.USER_LIMIT));
+        formData.add("limit", String.valueOf(USER_LIMIT));
 
         webTestClient.post().uri("users")
                 .contentType(MediaType.APPLICATION_FORM_URLENCODED)

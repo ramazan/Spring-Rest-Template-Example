@@ -20,8 +20,6 @@ public class UserController
     @RequestMapping(value = {"", "/", "/index"})
     public String showUsers(Model model)
     {
-//        model.addAttribute("users", apiService.getUsers(USER_LIMIT));
-
         return "index";
     }
 

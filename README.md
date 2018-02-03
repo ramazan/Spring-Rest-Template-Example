@@ -28,7 +28,13 @@ Used technologies
 ## Lists page  
 <img src="https://image.ibb.co/n9Jhm6/Screen_Shot_2018_02_03_at_19_20_52.png" height=" " width="">
 
+## In this project, there are 4 tests according to the concept of Test Driven Development.
+<img src="https://image.ibb.co/dqcsKR/Screen_Shot_2018_02_04_at_00_49_34.png" width="">
 
+
+
+[![CircleCI](https://circleci.com/gh/ramazan/Spring-Rest-Template-Example.svg?style=svg)](https://circleci.com/gh/ramazan/Spring-Rest-Template-Example)
+## When I push this repo , Circle CI run these all test and they show above badge
 
 
  
